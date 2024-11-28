@@ -1,5 +1,80 @@
+
 *{
-    margin : 0;
-    padding : 0;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
+  
+      /* Palette de couleur*/
+      --color1: #fff9d2 ;
+      --color2: #ffc054 ;
+      --color3: #291500 ;
+  }
+  
+body {
+    display: flex;
+    background-color:var(--color1);
+    margin: 0%;
+    margin-left: 0%;
+}
+
+#texte1 {
+    width:55% ;
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 15px;
+    box-shadow: black 2px 2px 5px 0px;
+    margin: 10px;
+}
+#image1{
+    display: flex;
+    flex-direction: ;
+    justify-content: ;
+    align-items: end;
+    aspect-ratio: ;
+    width: 40%;
+    background-image: url('../asset/images/groupPn.webp');
+    background-repeat: no-repeat;
+    background-size:40% ;
+    background-attachment: ;
+    background-position-y: ;
+    padding: 10px;
+     }
+    
+#texte2 {
+    width:55% ;
+    background-color:  rgba(255, 255, 255, 0.178);
+    padding: 15px;
+    box-shadow: black 2px 2px 5px 0px;
+    margin: 10px;
+    padding: 10px;
+}
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vh;
+    height: 100vh;
+    background-color: var(--color3);
+    color: var(--color2);
+    margin-left: 0%;
+    margin-top: 0%;
+    transition: 1s; 
+    padding: 10px;
+}
+.boutton{
+    text-decoration: none;
+    color: var(--color2);
+
+}
+
+#logoPN {
+    width: 35vh;
+    padding: 10px;
+
+}
+#lapin{
+    font-size:5vh ;
+    color: var(--color2);
+    padding: 10px;
 }
