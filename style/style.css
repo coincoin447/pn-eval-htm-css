@@ -23,22 +23,26 @@ body {
     padding: 15px;
     box-shadow: black 2px 2px 5px 0px;
     margin: 10px;
+    margin-left: 5vh;
 }
 #image1{
-    display: flex;
-    flex-direction: ;
-    justify-content: ;
-    align-items: end;
-    aspect-ratio: ;
-    width: 40%;
-    background-image: url('../asset/images/groupPn.webp');
-    background-repeat: no-repeat;
-    background-size:40% ;
-    background-attachment: ;
-    background-position-y: ;
+    
+     width: 35%;
+    
     padding: 10px;
+
+    
      }
     
+#image2{
+     
+     width: 35%;
+     
+     padding: 10px;
+     margin-left:5vh;
+     }
+
+
 #texte2 {
     width:55% ;
     background-color:  rgba(255, 255, 255, 0.178);
@@ -46,6 +50,7 @@ body {
     box-shadow: black 2px 2px 5px 0px;
     margin: 10px;
     padding: 10px;
+    margin-left: 0;
 }
 nav {
     position: fixed;
@@ -62,11 +67,26 @@ nav {
     transition: 1s; 
     padding: 10px;
 }
-.boutton{
-    text-decoration: none;
-    color: var(--color2);
 
+.boutton {
+    text-decoration: none;
+    color: var(--color2); 
+    background-color: var(--color3);
+    height: 5vh;
+    width: 35vh;
+    border-radius: 1vh;
+    text-align: center;
+    padding-top: 1.2vh;
+    transition: background-color 500ms, color 500ms, border 500ms;
 }
+
+.boutton:hover {
+    background-color: rgb(29, 28, 28);
+    color: var(--color2);
+    border: #ffff00 solid 1px; 
+    border-radius: 1vh;
+}
+
 
 #logoPN {
     width: 35vh;
@@ -78,3 +98,27 @@ nav {
     color: var(--color2);
     padding: 10px;
 }
+header{
+    position: relative;
+    margin-left: 40vh;
+}
+#title{
+    margin-left: 60vh;
+}
+
+#texphoto1{
+display: flex;
+flex-direction: row;
+justify-content: baseline;
+align-items: center;
+
+}
+#texphoto2{
+    display: flex;
+    flex-direction: row;
+     justify-content: baseline;
+     align-items: center;
+
+
+
+    
